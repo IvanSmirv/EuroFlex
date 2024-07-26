@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles/lightgallery.min.css" />
+    <link rel="stylesheet" href="styles/main.min.css" />
+    <title>Еврофлекс</title>
+  </head>
+  <body>
+    <div class="body-wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__body">
+            <div class="header__logo">
+              <a href="#!"><img src="img/logo.svg" alt="" /></a>
+            </div>
+            <div class="header__menu">
+              <nav class="header__links">
+                <a class="header__link scroll-to" href="#ya0">Продукция</a
+                ><a class="header__link scroll-to" href="#ya1"
+                  >Отраслевые решения</a
+                ><a class="header__link scroll-to" href="#ya2">Производство</a
+                ><a class="header__link scroll-to" href="#ya3">Преимущества</a>
+              </nav>
+              <div class="header__call">
+                <p class="header__tel">+7(495)123-45-67</p>
+                <a class="header__recall anim-btn" href="tel:+74951234567"
+                  >Обратный звонок
+                </a>
+              </div>
+            </div>
+            <div class="header__burger"><span></span></div>
+          </div>
+        </div>
+      </header>
+      <section class="main-screen">
+        <div class="container">
+          <div class="main-screen__body">
+            <div class="main-screen__content">
+              <h1 class="main-screen__title">
+                <span>Еврофлекс </span>- ведущий производитель упаковки для
+                пищевой промышленности и сельского хозяйства
+              </h1>
+              <div class="main-screen__description">
+                <p>Пленка БОПП с макроперфорацией до 12 отверстий</p>
+              </div>
+              <div class="main-screen__items">
+                <div class="main-screen__item">
+                  <div class="main-screen__item-img">
+                    <img src="img/icons/production.svg" />
+                  </div>
+                  <p class="main-screen__item-text">Собственное производство</p>
+                </div>
+                <div class="main-screen__item">
+                  <div class="main-screen__item-img">
+                    <img src="img/icons/new-costumer.svg" />
+                  </div>
+                  <p class="main-screen__item-text">
+                    Супер-условия новых клиентов
+                  </p>
+                </div>
+                <div class="main-screen__item">
+                  <div class="main-screen__item-img">
+                    <img src="img/icons/warehouse.svg" />
+                  </div>
+                  <p class="main-screen__item-text">
+                    Качество, склад, сроки производства
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="feedback">
+              <div class="feedback__body">
+                <p class="feedback__title">
+                  Получите расчет за 15 мин и спецпредложение на первый заказ!
+                </p>
+                <p class="feedback__sub-title">
+                  Количество спепредложений в рамках месяца ограничено
+                </p>
+                <form class="feedback__form" action="#">
+                  <div>
+                    <label for="name">Ваше имя*</label>
+                    <input
+                      type="text"
+                      placeholder="Петров Пётр"
+                      required
+                      id="name"
+                    />
+                  </div>
+                  <div>
+                    <label for="tel">Ваш номер*</label>
+                    <input
+                      class="tel"
+                      type="tel"
+                      name="phone"
+                      placeholder="+7 (___) ___-__-__"
+                      required
+                      id="tel"
+                    />
+                  </div>
+                  <button
+                    class="feedback__btn anim-btn btn-style"
+                    type="submit"
+                  >
+                    Получить СПЕЦПРЕДЛОЖЕНИЕ
+                  </button>
+                  <p class="feedback__info">
+                    Мы гарантируем конфиденциальность данных
+                  </p>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="background"></div>
+        </div>
+      </section>
+      <section class="products" id="ya0">
+        <div class="container">
+          <p class="products__title title">Наша продукция</p>
+          <div class="tabs">
+            <div class="tab-header">
+              <div class="tab-header__item js-tab-trigger active" data-tab="1">
+                <div class="tab-header__item-img">
+                  <img src="img/icons/Linear.svg" />
+                </div>
+                <h3 class="tab-header__item-title">Полотно LINEAR</h3>
+              </div>
+              <div class="tab-header__item js-tab-trigger" data-tab="2">
+                <div class="tab-header__item-img">
+                  <img src="img/icons/Zig-Zag.svg" />
+                </div>
+                <h3 class="tab-header__item-title">Полотно ZIG-ZAG</h3>
+              </div>
+              <div class="tab-header__item js-tab-trigger" data-tab="3">
+                <div class="tab-header__item-img">
+                  <img src="img/icons/Custom.svg" />
+                </div>
+                <h3 class="tab-header__item-title">Полотно CUSTOM</h3>
+              </div>
+            </div>
+            <div class="tab-content">
+              <div class="tab-content__item js-tab-content active" data-tab="1">
+                <div class="tab-content__item-img">
+                  <img src="img/icons/image.png" />
+                </div>
+                <div class="tab-content__item-content">
+                  <h3 class="tab-content__item-title">Полотно LINEAR</h3>
+                  <p class="tab-content__item-text">
+                    Схема перфорации, в которой отверстия делаются в линию, одно
+                    за другим. Единственными настраиваемыми параметрами являются
+                    расстояние между линиями (от 10 мм) и расстояние между
+                    отверстиями в линиях (от 30 мм). Диаметры отверстий от 3 мм
+                    до 50 мм.
+                  </p>
+                  <div class="tab-content__item-btns">
+                    <a
+                      class="tab-content__item-btn anim-btn btn-style"
+                      href="tel:+74951234567"
+                      >Бесплатная консультация
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-content__item js-tab-content" data-tab="2">
+                <div class="tab-content__item-img">
+                  <img src="img/icons/image (1).png" />
+                </div>
+                <div class="tab-content__item-content">
+                  <h3 class="tab-content__item-title">Полотно ZIG-ZAG</h3>
+                  <p class="tab-content__item-text">
+                    Представляет собой уникальное художественное творение, в
+                    основе которого лежит тщательно продуманная схема
+                    перфорации. Отверстия на полотне расположены строго в линию,
+                    создавая ритмичный и последовательный узор. Каждое отверстие
+                    следует за предыдущим, образуя зигзагообразную композицию,
+                    которая придает произведению динамичность и визуальное
+                    движение.
+                  </p>
+                  <div class="tab-content__item-btns">
+                    <a
+                      class="tab-content__item-btn anim-btn btn-style"
+                      href="tel:+74951234567"
+                      >Бесплатная консультация
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-content__item js-tab-content" data-tab="3">
+                <div class="tab-content__item-img">
+                  <img src="img/icons/image (2).png" />
+                </div>
+                <div class="tab-content__item-content">
+                  <h3 class="tab-content__item-title">Полотно CUSTOM</h3>
+                  <p class="tab-content__item-text">
+                    Полотно &quot;CUSTOM&quot; является выразительным
+                    произведением искусства, созданным с использованием
+                    индивидуального подхода к перфорации. В отличие от строгой
+                    регулярности полотна &quot;ZIG-ZAG&quot;, &quot;CUSTOM&quot;
+                    предоставляет возможность для личной настройки и
+                    экспериментирования с узорами.
+                  </p>
+                  <div class="tab-content__item-btns">
+                    <a
+                      class="tab-content__item-btn anim-btn btn-style"
+                      href="tel:+74951234567"
+                      >Бесплатная консультация
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="solutions" id="ya1">
+        <div class="container">
+          <div class="solutions__body">
+            <p class="solutions__title title">Отраслевые решения</p>
+            <div class="solutions__items">
+              <div class="solutions__item">
+                <div class="solutions__item-content">
+                  <h3 class="solutions__item-title">
+                    Пленка для упаковки овощей и фруктов
+                  </h3>
+                  <ul class="solutions__item-list">
+                    <li>
+                      LDPE или BOPP пленка с отверстиями от 6 до 50 мм, возможно
+                      программмируемое расположение отверстий
+                    </li>
+                    <li>Нанесение печати до 8 цветов</li>
+                    <li>Автоматические линии фасовки</li>
+                  </ul>
+                </div>
+                <div class="background"></div>
+              </div>
+              <div class="solutions__item">
+                <div class="solutions__item-content">
+                  <h3 class="solutions__item-title">
+                    Пакеты для упаковки овощей и фруктов
+                  </h3>
+                  <ul class="solutions__item-list">
+                    <li>
+                      Готовые пакеты для фасовки овощей и фруктов с
+                      макроперфорацией
+                    </li>
+                    <li>Нанесение печати до 8 цветов</li>
+                    <li>
+                      Есть готовая линейка пакетов, всегда в наличии на складе
+                    </li>
+                  </ul>
+                </div>
+                <div class="background"></div>
+              </div>
+              <div class="solutions__item">
+                <div class="solutions__item-content">
+                  <h3 class="solutions__item-title">
+                    Пленка для упаковки цветов и растений
+                  </h3>
+                  <ul class="solutions__item-list">
+                    <li>
+                      BOPP пленка с макроперфорацией, возможно программируемое
+                      расположение отверстий
+                    </li>
+                    <li>Нанесение печати</li>
+                    <li>Возможно программируемое расположение отверстий</li>
+                  </ul>
+                </div>
+                <div class="background"></div>
+              </div>
+              <div class="solutions__item">
+                <div class="solutions__item-content">
+                  <h3 class="solutions__item-title">
+                    Пленка для мульчирования
+                  </h3>
+                  <ul class="solutions__item-list">
+                    <li>
+                      Пленка для прикрытия почвы с отверстиями для точной
+                      рассадки растений 30 мм – 50 мм
+                    </li>
+                  </ul>
+                </div>
+                <div class="background"></div>
+              </div>
+              <div class="solutions__item">
+                <div class="solutions__item-content">
+                  <h3 class="solutions__item-title">Пленка для грибов</h3>
+                  <ul class="solutions__item-list">
+                    <li>
+                      Перфорированная пленка для покрытия почвы при выращивании
+                      грибов
+                    </li>
+                    <li>Диаметр отверстий от 6 до 50 мм</li>
+                  </ul>
+                </div>
+                <div class="background"></div>
+              </div>
+              <div class="solutions__item">
+                <div class="solutions__item-content">
+                  <h3 class="solutions__item-title">Производство плёнки</h3>
+                  <ul class="solutions__item-list">
+                    <li>Вентиляционные отверстия для овощей и трав</li>
+                    <li>Диаметр отверстий от 6 до 8 мм</li>
+                  </ul>
+                </div>
+                <div class="background"></div>
+              </div>
+              <div class="solutions__item">
+                <div class="solutions__item-content">
+                  <h3 class="solutions__item-title">Пакеты для игрушек</h3>
+                  <ul class="solutions__item-list">
+                    <li>Вентиляционные отверстия для предотвращения удушья</li>
+                    <li>Отверстия 6 мм</li>
+                  </ul>
+                </div>
+                <div class="background"></div>
+              </div>
+              <div class="solutions__item">
+                <div class="solutions__item-content">
+                  <h3 class="solutions__item-title">Пакеты для ракушек</h3>
+                  <ul class="solutions__item-list">
+                    <li>Отверстия для отвода воды и геля</li>
+                    <li>Диаметр отверстий от 6 мм</li>
+                  </ul>
+                </div>
+                <div class="background"></div>
+              </div>
+              <div class="solutions__item">
+                <div class="solutions__item-content">
+                  <h3 class="solutions__item-title">Пакеты для винограда</h3>
+                  <ul class="solutions__item-list">
+                    <li>
+                      Пакеты для винограда с ручкой, печатью и макроперфорацией
+                    </li>
+                    <li>Отверстия 6 или 8 мм</li>
+                  </ul>
+                </div>
+                <div class="background"></div>
+              </div>
+              <div class="solutions__item">
+                <div class="solutions__item-content">
+                  <h3 class="solutions__item-title">
+                    Упаковочная бумага с отверстиями
+                  </h3>
+                  <ul class="solutions__item-list">
+                    <li>Диаметр отверстий от 6 до 50 мм</li>
+                  </ul>
+                </div>
+                <div class="background"></div>
+              </div>
+            </div>
+            <div class="solutions__btns">
+              <a class="solutions__btn anim-btn btn-style" href="#"
+                >Получить консультацию
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="production" id="ya2">
+        <div class="container">
+          <div class="production__body">
+            <p class="production__title title">Наше производство</p>
+            <div class="production__description">
+              <p>
+                Наша компания работает в сфере производства полимерных
+                упаковочных материалов уже более. Мы имеем огромный опыт в
+                обеспечении потребителей качественной упаковочной продукцией.
+                Наши квалифицированные специалисты постоянно работают над
+                поиском новых решений в упаковке, для удовлетворения всех
+                потребностей наших клиентов.
+              </p>
+              <p>
+                Наши клиенты – производственные предприятия различных
+                направлений, сетевая и несетевая розница, торговые оптовые
+                компании, фермерские хозяйства и т.д.
+              </p>
+            </div>
+            <div class="production__list">
+              <h4>Еврофлекс - это:</h4>
+              <ul>
+                <li>
+                  Непрерывное расширение спектра выпускаемой продукции и
+                  географии поставок
+                </li>
+                <li>Офисы в Москве, СПБ, Новосибирске, Краснодаре</li>
+                <li>
+                  Поможем реализовать ваши идеи в упаковке вашей продукции
+                </li>
+                <li>Продажа напрямую без посредников</li>
+                <li>Типовая продукция всегда в наличии на складах</li>
+                <li>
+                  Отлаженная система контроля качества выпускаемой продукции
+                </li>
+                <li>Доставка в любую точку РФ или СНГ</li>
+              </ul>
+            </div>
+            <div class="production__counters">
+              <div class="production__counter">
+                <div>
+                  <span class="small"></span
+                  ><span
+                    class="count big"
+                    data-start="0"
+                    data-end="95.6"
+                    data-duration="2000"
+                  ></span
+                  ><span class="big">%</span>
+                </div>
+                <p>
+                  наших клиентов пришли по рекомендациям своих друзей и коллег
+                </p>
+              </div>
+              <div class="production__counter">
+                <div>
+                  <span class="small">на </span
+                  ><span
+                    class="count big"
+                    data-start="0"
+                    data-end="25"
+                    data-duration="2000"
+                  ></span
+                  ><span class="big">%</span>
+                </div>
+                <p>нарастили роизводственные мощности за последний квартал</p>
+              </div>
+              <div class="production__counter">
+                <div>
+                  <span class="small">более </span
+                  ><span
+                    class="count big"
+                    data-start="0"
+                    data-end="200"
+                    data-duration="2000"
+                  ></span>
+                </div>
+                <p>
+                  компаний успешно используют нашу продукцию в своем бизнесе
+                </p>
+              </div>
+              <div class="production__counter">
+                <div>
+                  <span
+                    class="count big"
+                    data-start="0"
+                    data-end="3.5 "
+                    data-duration="2000"
+                  >
+                  </span
+                  ><span class="small">года</span>
+                </div>
+                <p>средний срок сотрудничества с клиентами</p>
+              </div>
+            </div>
+            <div class="production__slider">
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper" id="aniimated-thumbnials">
+                  <a class="swiper-slide" href="img/our-production/img (3).png">
+                    <img src="img/our-production/img (3).png" /></a
+                  ><a
+                    class="swiper-slide"
+                    href="img/our-production/img (4).png"
+                  >
+                    <img src="img/our-production/img (4).png" /></a
+                  ><a
+                    class="swiper-slide"
+                    href="img/our-production/img (5).png"
+                  >
+                    <img src="img/our-production/img (5).png" /></a
+                  ><a
+                    class="swiper-slide"
+                    href="img/our-production/img (1).png"
+                  >
+                    <img src="img/our-production/img (1).png" /></a
+                  ><a
+                    class="swiper-slide"
+                    href="img/our-production/img (2).png"
+                  >
+                    <img src="img/our-production/img (2).png" /></a
+                  ><a
+                    class="swiper-slide"
+                    href="img/our-production/img (3).png"
+                  >
+                    <img src="img/our-production/img (3).png" /></a
+                  ><a
+                    class="swiper-slide"
+                    href="img/our-production/img (4).png"
+                  >
+                    <img src="img/our-production/img (4).png" /></a
+                  ><a
+                    class="swiper-slide"
+                    href="img/our-production/img (5).png"
+                  >
+                    <img src="img/our-production/img (5).png" /></a
+                  ><a
+                    class="swiper-slide"
+                    href="img/our-production/img (1).png"
+                  >
+                    <img src="img/our-production/img (1).png" /></a
+                  ><a
+                    class="swiper-slide"
+                    href="img/our-production/img (2).png"
+                  >
+                    <img src="img/our-production/img (2).png" /></a
+                  ><a
+                    class="swiper-slide"
+                    href="img/our-production/img (3).png"
+                  >
+                    <img src="img/our-production/img (3).png" /></a
+                  ><a
+                    class="swiper-slide"
+                    href="img/our-production/img (4).png"
+                  >
+                    <img src="img/our-production/img (4).png" /></a
+                  ><a
+                    class="swiper-slide"
+                    href="img/our-production/img (5).png"
+                  >
+                    <img src="img/our-production/img (5).png"
+                  /></a>
+                </div>
+              </div>
+              <div class="swiper-button-next">
+                <img src="img/icons/right.svg" />
+              </div>
+              <div class="swiper-button-prev">
+                <img src="img/icons/left.svg" />
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+          <div class="background"></div>
+        </div>
+      </section>
+      <section class="advantages" id="ya3">
+        <div class="container">
+          <div class="advantages__body">
+            <p class="advantages__title title">Наши преимущества</p>
+            <div class="advantages__items">
+              <div class="advantages__item">
+                <div class="advantages__item-img">
+                  <img src="img/icons/Subtract (7).svg" />
+                </div>
+                <p class="advantages__item-title">
+                  супер-условия по сотрудничеству
+                </p>
+              </div>
+              <div class="advantages__item">
+                <div class="advantages__item-img">
+                  <img src="img/icons/Subtract (1).svg" />
+                </div>
+                <p class="advantages__item-title">отличные цены</p>
+              </div>
+              <div class="advantages__item">
+                <div class="advantages__item-img">
+                  <img src="img/icons/Subtract (2).svg" />
+                </div>
+                <p class="advantages__item-title">
+                  программируемое расположение отверстий
+                </p>
+              </div>
+              <div class="advantages__item">
+                <div class="advantages__item-img">
+                  <img src="img/icons/Subtract (3).svg" />
+                </div>
+                <p class="advantages__item-title">
+                  диаметр отверстий от 6 мм до 50 мм
+                </p>
+              </div>
+              <div class="advantages__item">
+                <div class="advantages__item-img">
+                  <img src="img/icons/Subtract (4).svg" />
+                </div>
+                <p class="advantages__item-title">
+                  возможность нанесения 12 отверстий в ряд
+                </p>
+              </div>
+              <div class="advantages__item">
+                <div class="advantages__item-img">
+                  <img src="img/icons/group.svg" />
+                </div>
+                <p class="advantages__item-title">
+                  нанесение печати до 8 цветов
+                </p>
+              </div>
+              <div class="advantages__item">
+                <div class="advantages__item-img">
+                  <img src="img/icons/Subtract (5).svg" />
+                </div>
+                <p class="advantages__item-title">
+                  ширина материала от 100 мм до 1350 мм
+                </p>
+              </div>
+              <div class="advantages__item">
+                <div class="advantages__item-img">
+                  <img src="img/icons/Subtract (6).svg" />
+                </div>
+                <p class="advantages__item-title">доставка по всей РФ</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="go-top">▲</div>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__body">
+            <div class="footer__content">
+              <p class="footer__title title">
+                Что вам так же может быть интересно?
+              </p>
+              <div class="footer__description">
+                <p>
+                  Наша компания специализируется на производстве
+                  высококачественной упаковки для пищевой промышленности и
+                  сельского хозяйства. Мы предлагаем широкий ассортимент
+                  продукции, включая упаковочные материалы для хранения и
+                  транспортировки продуктов питания, а также специализированные
+                  решения для сельскохозяйственной продукции.
+                </p>
+                <p>
+                  Наша упаковка обеспечивает надежную защиту товаров, сохраняя
+                  их свежесть и качество на протяжении всего срока хранения. Мы
+                  используем только экологически чистые и безопасные материалы,
+                  соответствующие международным стандартам, что гарантирует
+                  безопасность и удовлетворение потребностей наших клиентов.
+                </p>
+              </div>
+            </div>
+            <div class="feedback">
+              <div class="feedback__body">
+                <p class="feedback__title">
+                  Получите расчет за 15 мин и спецпредложение на первый заказ!
+                </p>
+                <p class="feedback__sub-title">
+                  Количество спепредложений в рамках месяца ограничено
+                </p>
+                <form class="feedback__form" action="#">
+                  <div>
+                    <label for="name">Ваше имя*</label>
+                    <input
+                      type="text"
+                      placeholder="Петров Пётр"
+                      required
+                      id="name"
+                    />
+                  </div>
+                  <div>
+                    <label for="tel">Ваш номер*</label>
+                    <input
+                      class="tel"
+                      type="tel"
+                      name="phone"
+                      placeholder="+7 (___) ___-__-__"
+                      required
+                      id="tel"
+                    />
+                  </div>
+                  <button
+                    class="feedback__btn anim-btn btn-style"
+                    type="submit"
+                  >
+                    Получить СПЕЦПРЕДЛОЖЕНИЕ
+                  </button>
+                  <p class="feedback__info">
+                    Мы гарантируем конфиденциальность данных
+                  </p>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="background"></div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/4.1.3/less.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/lightgallery.min.js"></script>
+    <script src="js/lg-thumbnail.min.js"></script>
+    <script src="js/DynamicAdaptive.min.js"></script>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
